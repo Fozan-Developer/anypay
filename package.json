@@ -1,5 +1,5 @@
 {
-    "name": "anypay-api",
+    "name": "anypay-ts",
     "version": "1.0.0",
     "description": "TypeScript библиотека для работы с платёжной системой AnyPay",
     "main": "dist/index.js",

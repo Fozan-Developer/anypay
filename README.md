@@ -22,9 +22,9 @@
 ## Установка
 
 ```bash
-npm install anypay-api
+npm install anypay-ts
 # или
-yarn add anypay-api
+yarn add anypay-ts
 ```
 
 ---
@@ -32,7 +32,7 @@ yarn add anypay-api
 ## Инициализация клиента
 
 ```ts
-import { AnyPayClient } from 'anypay-sdk';
+import { AnyPayClient } from 'anypay-ts';
 
 const client = new AnyPayClient('API_ID', 'API_KEY');
 ```
@@ -134,7 +134,7 @@ try {
 ## Примеры
 
 ```ts
-import { AnyPayClient } from 'anypay-sdk';
+import { AnyPayClient } from 'anypay-ts';
 
 const client = new AnyPayClient('API_ID', 'API_KEY');
 
