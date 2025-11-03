@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ES2020", // на какой JS компилировать
+        "module": "CommonJS", // для Node.js
+        "declaration": true, // генерация .d.ts для типизации
+        "outDir": "dist", // куда компилировать
+        "strict": true, // строгая типизация
+        "esModuleInterop": true, // совместимость require/import
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true
+    },
+    "include": ["src/**/*"]
+}

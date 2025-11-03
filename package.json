@@ -1,0 +1,36 @@
+{
+    "name": "anypay-api",
+    "version": "1.0.0",
+    "description": "TypeScript библиотека для работы с платёжной системой AnyPay",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Fozan-Developer/anypay.git"
+    },
+    "scripts": {
+        "build": "tsc",
+        "lint": "eslint . --ext .ts",
+        "prepare": "npm run build",
+        "test": "echo \"No tests yet\""
+    },
+    "keywords": [
+        "anypay",
+        "typescript",
+        "payments",
+        "nodejs",
+        "library"
+    ],
+    "author": "mr_fozan",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.13.1"
+    },
+    "devDependencies": {
+        "@types/node": "^20.19.24",
+        "@typescript-eslint/eslint-plugin": "^6.21.0",
+        "@typescript-eslint/parser": "^6.21.0",
+        "eslint": "^8.57.1",
+        "typescript": "^5.9.3"
+    }
+}
